@@ -12,6 +12,6 @@ Two.Utils.shim(canvas, Image);
 const renderer = new Renderer({canvas});
 renderer.renderText();
 
-const out = createWriteStream('output/wrapper.png');
+const out = createWriteStream('output/canvas.png');
 const stream = canvas.createPNGStream();
 stream.pipe(out);
