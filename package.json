@@ -1,0 +1,19 @@
+{
+  "name": "isomorphic-text-rendering",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "node-canvas": "node src/node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "two.js": "^0.8.10",
+    "vite": "^3.2.4"
+  }
+}
